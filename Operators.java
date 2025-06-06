@@ -57,6 +57,9 @@ public class Operators {
         System.out.println(c&d);// 2
         System.out.println(c|d);// 58 */
 
-        // Ternary Operators
+        // Ternary Operators (condition?statement1:statement2)
+        int age = 20;
+        String result = (age>18)?"You are Elidgible":"You are not eligible";
+        System.out.println(result);
     }
 }
